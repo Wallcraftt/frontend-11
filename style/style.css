@@ -19,6 +19,7 @@ header{
   display:flex;
   align-items: center;
   justify-content: space-around;
+  padding: 20px;
 }
 li{
   display: inline;
@@ -29,4 +30,22 @@ li{
   color: #171717;
   border-radius: 25px;
   padding: 10px;
+}
+.section-sky-house{
+  display: flex;
+  position: relative;
+  bottom: 70px;
+  justify-content: center;
+}
+
+
+.sky-house{
+  position: absolute;
+  width: 700px;
+  height: 400px;
+}
+h3{
+  position: absolute;
+  top: 420px;
+  font-size: 20px;
 }
