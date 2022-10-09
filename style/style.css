@@ -48,6 +48,7 @@ li{
 h3{
   font-size: 20px;
   margin-right: 230px;
+  font-family: ALK Rounded Nusx Med;
 }
 .image-box{
   display: inline-block;
@@ -96,6 +97,7 @@ div > img {
     "footer footer  " 
   ;
   align-items: flex-end;
+  margin-top: 50px;
 }
 iframe{
   width: 300px;
@@ -107,7 +109,64 @@ iframe{
 }
 .div-contact{
   margin: 50px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
 }
-.sectaion-contact{
+.section-h2{
   padding-bottom: 30px;
+  font-size: 25px;
 }
+.number-message{
+  display: flex;
+  align-items: center;
+}
+.number{
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  display: inline-block;
+}
+.message-logo{
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}
+label{
+  color:#FFFFFF;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.20);
+  padding-bottom: 10px;
+  width: 200%;
+ 
+}
+.info{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 500px;
+  height: 300px;
+  
+}
+.user-name{
+  width: 200%;
+  margin-bottom: 100px;
+  display: inline-block;
+}
+.email{
+  margin-bottom: 80px;
+  display: inline-block;
+}
+.user-number{
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.textarea{
+  margin-top: 20px;
+  display: inline-block;
+}
+p{
+  font-family: ALK Rounded Nusx Med;
+}
+
