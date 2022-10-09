@@ -14,6 +14,7 @@ ul{
 header{
   background-color: #0020F4;
   height: 250px;
+  width: 100%;
 }
 header > div > img{
   height: 50px;
@@ -169,4 +170,34 @@ label{
 p{
   font-family: ALK Rounded Nusx Med;
 }
-
+.div-buttom{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 50%;
+}
+.buttom-2{
+  display: inline-block;
+  background-color:white;
+  color: black;
+  padding: 10px;
+  border-radius: 30px;
+  width: 130px;
+}
+@media (max-width:1024px){
+  header,img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  a{
+    display: none;
+  }
+  h3{
+    margin-left: 280px;
+  }
+  .sky-house{
+    max-width: 400px;
+    height: 200px;
+    width: 90%;
+  }
+}
