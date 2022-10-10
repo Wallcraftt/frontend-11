@@ -183,9 +183,7 @@ p{
   border-radius: 30px;
   width: 130px;
 }
-.nav-bar{
-  display: none;
-}
+
 @media (max-width:1024px){
   header,img{
     width: 100%;
@@ -199,6 +197,9 @@ p{
     margin-left: 270px;
     max-width: 400px;
     width: 90%;
+  }
+  .nav-bar{
+    display: none;
   }
   .sky-house{
     max-width: 400px;
